@@ -6,6 +6,18 @@ body {
   margin: 250px;
 }*/
 
+#logo {
+  font-family: 'Fresca', sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #1D9E74;
+}
+
+/*.navbar {
+  color: blue;
+}*/
+
 .pageTitle {
   /*font-family: 'Satisfy', cursive;*/
   color: #a1f694;

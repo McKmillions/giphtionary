@@ -1,1 +1,17 @@
-<h1 class="pageTitle">My Giphtionary</h1>
+<div class="container">
+  <div class="jumbotron text-center">
+    <h1>Giphtionary</h1>
+    <p>Giphtionary is a multiplayer word gif game competition. It's like Pictionary. You pick a category and a gif with the goal of having other players guess your word and vice versa.</p>
+    <a href="#" class="btn btn-primary">New Game</a>
+    <a href="#" class="btn btn-success">High Schores</a>
+  </div>
+  <h3>Search for a gif to get started</h3>
+
+  <form class="form-inline" role="search">
+    <div class="form-group">
+      <input type="text" class="form-control" ng-model="search" placeholder="Giphy Search">
+      <button class="btn btn-primary" ng-click="getGiphData()"> Submit </button>
+    </div>
+  </form>
+  <img ng-src="{{giphData}}">
+</div>
