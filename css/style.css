@@ -5,13 +5,88 @@ body {
 /*.formWrap {
   margin: 250px;
 }*/
+container { width: 100% }
+
+.bg-primary {
+  /*background-image: url(http://i.giphy.com/LZ5Koaqxqw0VO.gif);
+  background-position: center;
+  background-size: cover;*/
+  background-color: rgba(33, 126, 213, 0.5);
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.jumbotron {
+  /*background-image: url(http://i.giphy.com/LZ5Koaqxqw0VO.gif);*/
+  width: 100%;
+  /*background-poistion: center;
+  background-size: cover;*/
+  background-color: rgba(33, 126, 213, 0.5);
+}
+/*.home-page {
+    background: transparent url("../images/backgrounds/image-overlay.png") repeat 0 0;
+    background: rgba(39,62,84,0.82);
+    overflow: hidden;
+    height: 100%;
+    z-index: 2;
+}*/
+
+.parent {
+  float: left;
+  position: relative;
+  height: 20%;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.bluebox {
+  display: block;
+  bottom: 0;
+  background: rgba(12, 59, 180, 0.9);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  color: white;
+  background-image: url(https://media.giphy.com/media/LeMYcZHhOd1le/giphy.gif);
+}
+
+.tag-line {
+  bottom: 0;
+  diplay: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin-right: 50%;
+  margin-bottom: -25%;
+  z-index: 1010
+}
+
+#nopad {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  /*background-image: url(https://media.giphy.com/media/LeMYcZHhOd1le/giphy.gif);*/
+  background-size: cover;
+}
 
 #logo {
-  font-family: 'Fresca', sans-serif;
-  font-size: 2em;
+  font-family: 'Teko', sans-serif;
+  font-size: 3em;
   font-weight: bold;
   letter-spacing: 2px;
-  color: #1D9E74;
+  color: #15003B;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+}
+
+.giphylogo {
+  width: 150px;
 }
 
 /*.navbar {
@@ -100,4 +175,22 @@ body {
     line-height: 35px;
     display: inline-block;
     vertical-align: top;
+}
+
+#gif-frame {
+    /*position: fixed;*/
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.extra-margin {
+  margin-top: 70px;
 }

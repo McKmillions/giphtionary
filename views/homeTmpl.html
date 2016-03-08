@@ -1,17 +1,52 @@
-<div class="container">
-  <div class="jumbotron text-center">
-    <h1>Giphtionary</h1>
+<!-- <div class="bg-primary text-center">
+  <div class="parent"><div class="bluebox"></div></div>
+  <div class="container">
+    <h1>Giphtionary <i class="fa fa-plus"></i> <img src="./img/giphy.png" class="giphylogo img-responsive"></h1>
     <p>Giphtionary is a multiplayer word gif game competition. It's like Pictionary. You pick a category and a gif with the goal of having other players guess your word and vice versa.</p>
-    <a href="#" class="btn btn-primary">New Game</a>
-    <a href="#" class="btn btn-success">High Schores</a>
+    <a ui-sref="giphy" ng-if="loggedIn" class="btn btn-primary">New Game</a>
+    <a ui-sref="register" ng-if="!loggedIn" class="btn btn-success">Signup!</a>
   </div>
-    <div class="col-md-4">
-      <h2>Movies<h2><img src="https://media.giphy.com/media/c65HDqFZd4m9G/giphy.gif" class="center-block img-rounded img-responsive">
+  <div class="headerimg"></div>
+</div> -->
+<div class="jumbotron text-center">
+  <h2 class="extra-margin">Giphtionary <i class="fa fa-plus"></i> Giphy<h2>
+    <div class="row">
+      <div class="col-md-12 col-centered text-center">
+        <p>A fun game based on pictionary</p>
+      </div>
+      <div class="col-md-12 col-centered text-center">
+        <a ui-sref="giphy" ng-if="loggedIn" class="btn btn-primary">New Game</a>
+        <a ui-sref="register" ng-if="!loggedIn" class="btn btn-success">Signup!</a>
     </div>
-    <div class="col-md-4">
-      <h2>Music<h2><img src="https://media.giphy.com/media/7e0EvlBD7nxZu/giphy.gif" class="center-block img-rounded img-responsive">
+  </div>
+  </div>
+
+<!-- <div class="parent text-center">
+  <div class="bluebox"></div>
+  <div class="text-center">
+  <span class="tag-line"><img src="https://d24wuq6o951i2g.cloudfront.net/img/events/id/230/2306566/assets/0ea.logo.png"></span>
+    1st row
+    <div>
+      <div class="col-sm-3" id="nopad"><img src="https://media.giphy.com/media/LeMYcZHhOd1le/giphy.gif" alt"Pictionary Header Gif" class="img-responsive" id="nopad"></div>
+      <div class="col-sm-3" id="nopad"><img src="https://media.giphy.com/media/2VC7PgUltKoAE/giphy.gif" alt"Pictionary Header Gif" class="img-responsive" id="nopad"></div>
+      <div class="col-sm-3" id="nopad"><img src="https://media.giphy.com/media/5SJ3HHGyS70FG/giphy.gif" alt"Pictionary Header Gif" class="img-responsive" id="nopad"></div>
+      <div class="col-sm-3" id="nopad"><img src="https://media.giphy.com/media/hgN6TPMn8EDza/giphy.gif" alt"Pictionary Header Gif" class="img-responsive" id="nopad"></div>
     </div>
-    <div class="col-md-4">
-      <h2>Politics<h2><img src="https://media.giphy.com/media/jSB2l4zJ82Rvq/giphy.gif" class="center-block img-rounded img-responsive">
+    2nd row
+    <div>
+      <div class="col-sm-3" id="nopad"><img src="https://media.giphy.com/media/LeMYcZHhOd1le/giphy.gif" alt"Pictionary Header Gif" class="img-responsive" id="nopad"></div>
+      <div class="col-sm-3" id="nopad"><img src="https://media.giphy.com/media/LeMYcZHhOd1le/giphy.gif" alt"Pictionary Header Gif" class="img-responsive" id="nopad"></div>
+      <div class="col-sm-3" id="nopad"><img src="https://media.giphy.com/media/LeMYcZHhOd1le/giphy.gif" alt"Pictionary Header Gif" class="img-responsive" id="nopad"></div>
+      <div class="col-sm-3" id="nopad"><img src="https://media.giphy.com/media/LeMYcZHhOd1le/giphy.gif" alt"Pictionary Header Gif" class="img-responsive" id="nopad"></div>
     </div>
+  </div>
+</div> -->
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3 col-centered text-centered">
+      <h2>What is Giphtionary?</h2>
+        <p>Giphtionary is a multiplayer word gif game competition. It's like Pictionary. You pick a category and a gif with the goal of having other players guess your word and vice versa.</p>
+    </div>
+  </div>
 </div>

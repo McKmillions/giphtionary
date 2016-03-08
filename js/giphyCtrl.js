@@ -12,7 +12,7 @@ angular.module('giphTionary')
       console.log(data);
       // $scope.giphData = data[0].images.fixed_height.url;
       $scope.giphData = data.fixed_height_downsampled_url;
-      $scope.search = ""
+      $scope.search = "";
     });
   };
 
