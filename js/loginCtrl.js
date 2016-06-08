@@ -1,5 +1,5 @@
 angular.module('giphTionary')
-.controller('loginCtrl', function($scope, userService){
+.controller('loginCtrl', function($scope, $state, userService){
 
   $scope.login = function(email, password){
     userService.login(email, password);
@@ -12,6 +12,7 @@ angular.module('giphTionary')
         console.log("Login Failed!", error);
       } else {
         console.log("Authenticated successfully with payload:", authData);
+        $state.go('home');
       }
     });
   };
